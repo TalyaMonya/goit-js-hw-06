@@ -27,9 +27,11 @@ ul {
   list-style: none;
 }
 
-.main-item {
+
+.main-item:not(:last-child){
   margin-bottom: 40px;
 }
+
 
 .main-link{
   text-decoration: none;
