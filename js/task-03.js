@@ -24,7 +24,7 @@ gallery.insertAdjacentHTML('beforeend', makeGallery);
 
 // 2 variant
 
-// const makeGalleryEL = (arr) => {
+// const makeGalleryEl = (arr) => {
 //   return arr.map(({ url, alt }) => {
 //     const li = document.createElement('li');
 //     const img = document.createElement('img');

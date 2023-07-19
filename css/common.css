@@ -23,6 +23,7 @@ button {
   cursor: pointer;
 }
 
+
 ul {
   list-style: none;
 }
@@ -95,4 +96,41 @@ img {
   z-index: 2;
   transform: scale(1.25);
 }
+
+
+/* Task 4 */
+
+#counter {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+
+
+#counter >span {
+font-size: 20px;
+font-weight: bold;
+margin: 0 20px;
+color: #0a1029;
+}
+
+#counter >button {
+font-size: 15px;
+font-weight: bold;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: none;
+
+background-color: #f7f3af;
+
+box-shadow: -4px -4px 15px #d3e5f6, 4px 4px 15px #6b728a;
+transition: all 0.2s ease-in-out;
+}
+
+#counter>button:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
 
