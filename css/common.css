@@ -134,3 +134,15 @@ transition: all 0.2s ease-in-out;
 }
 
 
+/* Task 5 */
+
+#name-input {
+ margin-top: 30px;
+border-radius: 10px;
+}
+
+#name-output{
+  color: rgba(52, 52, 194, 0.9);
+  text-shadow: 4px 4px 2px rgba(190, 188, 30, 0.6);
+}
+
