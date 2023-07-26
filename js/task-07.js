@@ -8,9 +8,8 @@ const controlEl = document.getElementById('font-size-control');
 const text = document.getElementById('text');
 text.style.fontSize = `${controlEl.value}px`;
 
+controlEl.addEventListener('input', onEnlargeText);
 
 function onEnlargeText(event) {
     text.style.fontSize = `${ event.currentTarget.value }px`;
 }
-
-controlEl.addEventListener('input', onEnlargeText);
