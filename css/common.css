@@ -166,3 +166,32 @@ border-radius: 10px;
   background-color: #6cc6de;
   text-shadow: 1px 1px 0 #fff;
 }
+
+
+/* Task 9 */
+
+.change-color{
+   font-size: 18px;
+    font-weight: bold;
+  
+   background-color: #fff;
+    text-shadow: 1px 1px 0 #6cc6de;
+  
+   padding: 10px 15px;
+  
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+  
+    box-shadow: -5px -5px 20px #cae1f6, 5px 5px 20px #6b728a;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.change-color:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+.change-color:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
