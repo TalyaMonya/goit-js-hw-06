@@ -195,3 +195,46 @@ border-radius: 10px;
 .change-color:active {
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
+
+/* Task 10 */
+
+#controls{
+  margin-top: 30px;
+}
+
+#controls input{
+  font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#controls button {
+  font-size: 18px;
+    font-weight: bold;
+
+    margin-left: 20px;
+  
+    background-color: #fbfd66;
+    text-shadow: 1px 1px 0 #6cc6de;
+  
+    padding: 10px 15px;
+  
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+  
+    box-shadow: -2px -2px 15px #cae1f6, 2px 2px 15px #6b728a;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+#controls button:hover {
+  box-shadow: -1px -1px 4px #fff, 1px 1px 4px #babecc;
+}
+
+#controls button:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
