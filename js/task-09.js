@@ -19,6 +19,5 @@ const elements = {
 elements.btnChangeColor.addEventListener('click', handlerChangeColor);
 
 function handlerChangeColor() {
-  elements.body.style.backgroundColor = getRandomHexColor();
-  elements.textColor.textContent = `${getRandomHexColor()}`;
+  elements.textColor.textContent = elements.body.style.backgroundColor = getRandomHexColor();
 }
